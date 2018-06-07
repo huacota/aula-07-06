@@ -1,3 +1,93 @@
 body {
-    margin: 0;
+     max-width: 600px; /* vai fazer com q aumente até uma certa unid*/ /**/
+     margin: 40px auto 0;
+     font-family: sans-serif;
+     line-height: 1.5; /*espaçamento entre as linhas*/
+      
+}
+
+h2{
+    border-top: solid 5px rgb(187, 14, 40);
+    margin-top: 50px;
+    padding-top: 50px;
+    text-transform: uppercase; /*deixa maiusculo*/
+    letter-spacing: 1px;
+    
+}
+
+h2 span{
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: rebeccapurple;
+    display: inline-block; 
+    margin-left: 100px;
+}
+p{
+    color: seagreen;
+}
+#primeiro{
+    font-size:  18px;
+    font-weight: bold;
+
+}
+.azul{
+    color: blue;
+
+}
+
+[nome=menor]{
+    border: dotted 1px black;
+}
+footer{
+    margin-bottom: 100px;
+
+}
+ol{
+    margin:0;
+    padding: 0;
+    margin-bottom: 60px;
+    list-style: none;
+}
+    li{
+        background: grey;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+li a{
+    text-decoration: none;
+}
+li a:visited{
+    color:red; 
+}
+li a:hover{
+    color:green;
+}
+
+.final{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin: auto 15px;
+
+}
+.final:nth-child(1){
+    background: red;
+    /*FORMTA O PRIMEIRO BOTÃO INDEP DO CONTEUDO*/ 
+    
+}
+.final:nth-child(2){
+    background: green;
+}
+.final:nth-child(3){
+    background: pink;
+}
+.final:nth-child(4){
+    background: yellow;
+}
+.final:nth-child(5){
+    background: purple;
 }
